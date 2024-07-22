@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AndresproyectofinalApp</title>
+    <link rel="stylesheet" href="./assets/styles/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg menu navbar-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">AndresproyectofinalApp</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#"  id="avatar" role="button" data-bs-toggle="dropdown"></a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#" id="botonsalir">Salir</a>
+                      </li>
+
+                    </ul>
+                  </li>
+                  <li class="nav-item mt-2">
+                    <i class="bi bi-person-circle text-white fw-bold mt-5 fs-2"></i>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+    <main>
+
+        <div class="banner">
+          <iframe width="500px" height="500px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=_tQLPBERE02ODHwzuet1gVBIjvUA_UhAmuQKArixhyhURUg0QkxUTkpFVkRKN1FMQVFEUFA2NTVEMC4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
+        </div>
+
+        <button class="btn btn-primary botonChat" id="botonChat" onclick="cambiarCaja()">Chatea conmigo</button>
+        <div class="cajaChat" id="cajaChat">
+          
+          <div class="p-4 mensajeChat" id="mensajesChat">
+            <p class="text-start">Hola Bienvenido</p>
+            <p class="text-end">Gracias.</p>
+          </div>
+          <div class="areaTextoChat">
+            <div class="container">
+              <div class="row">
+                <div class="col-9">
+                  <input type="text" class="form-control my-3" id="textoChat">
+                </div>
+                <div class="col-3 mt-3">
+                  <i class="bi bi-send-fill fs-4 botonSend" id="botonSend"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <section class="container-fluid">
+          <div class="row">
+            <div class="col-12 my-5">
+              <img src="./assets/img/images.jpg" alt="foto" class="img-fluid">
+            </div>
+          </div>
+          <div class="row">     
+            <div class="col-8">
+              <h3>TITULO</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima at nisi inventore! Quis saepe similique voluptas nihil quo perferendis nulla eligendi ratione, ipsam possimus quasi amet, exercitationem harum soluta ex.</p>
+            </div>
+            <div class="col-4">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima at nisi inventore! Quis saepe similique voluptas nihil quo perferendis nulla eligendi ratione, ipsam possimus quasi amet, exercitationem harum soluta ex.</p>
+            </div>
+          </div>
+      
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+      
+      <div class="row">
+          <div class="col-4">
+            <h3>APPANDRES</h3>
+            <img src="./assets/img/mascota.jpg" alt="Logo de mascota">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nesciunt porro provident. Ea natus consequuntur saepe dicta quod in quia? Aliquam sequi cupiditate animi similique aspernatur voluptate nulla dicta optio.</p>
+          </div>
+          <div class="col-4">
+            <h3>SURA</h3>
+                <img src="./assets/img/suramovilidad.jpg" alt="" class="logopie1">
+            <button>
+              <a href="">Ir</a>
+            </button>
+              <img src="./assets/img/surasalud.jpg" alt="" class="logopie2">
+              <button>
+                <a href="">Ir</a>
+              </button>
+              <img src="./assets/img/surahogar.jpg" alt="" class="logopie3">
+              <button>
+                <a href="">Ir</a>
+              </button>
+            
+
+          </div>
+          <div class="col-4">
+            <h3>ACERCA DE</h3>
+            <img src="./assets/img/github.png" alt="" class="github">
+              <button>
+                <a href="">Ir</a>
+                
+              </button>
+              <hr>
+              <p>Este proyecto me permitio fortalicer</p>
+           
+          </div>
+
+    </div>
+
+    
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="./src/controllers/controlador.js"></script>
+  <script src="./src/controllers/controladorSalida.js" type="module"></script>
+  <script src="./src/controllers/controladorChat.js" type="module"></script>
+    
+</body>
+</html>
